@@ -1,0 +1,2 @@
+require("magnus")
+print("hello")

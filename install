@@ -1,4 +1,5 @@
 #!/usr/bin/env zsh
+
 pushd $DOTFILES
 echo $DOTFILES
 for folder in $(echo $STOW_FOLDERS | sed "s/,/ /g")

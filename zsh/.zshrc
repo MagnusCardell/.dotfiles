@@ -1,1 +1,6 @@
-source ~/.zsh_profilesource ~/.zsh_profile
+source ~/.zsh_profile  
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME="robbyrussell"
+plugins=(git zsh-autosuggestions)
+source $ZSH/oh-my-zsh.sh
+export PATH=~/.local/scripts:$PATH

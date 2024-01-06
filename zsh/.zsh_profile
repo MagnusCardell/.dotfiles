@@ -2,4 +2,5 @@ VIM="nvim"
 
 export DOTFILES=$HOME/.dotfiles
 
+bindkey -s ^f "tmux-sessionizer\n"
 

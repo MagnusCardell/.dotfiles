@@ -8,3 +8,7 @@ set smartindent
 
 colorscheme desert
 
+let mapleader= " " 
+nnoremap <leader>pv :Vex<CR>
+nnoremap <leader><CR> :so ~/.vimrc<CR>
+

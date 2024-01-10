@@ -9,9 +9,12 @@ set smartindent
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'ayu-theme/ayu-vim'
 call plug#end()
 
-colorscheme desert
+set termguicolors     " enable true colors support
+let ayucolor="dark"   " for dark version of theme
+colorscheme ayu 
 
 let mapleader= " " 
 nnoremap <leader>pv :Vex<CR>

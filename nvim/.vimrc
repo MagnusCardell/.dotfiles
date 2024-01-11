@@ -21,3 +21,10 @@ nnoremap <leader>pv :Vex<CR>
 nnoremap <leader><CR> :so ~/.vimrc<CR>
 nnoremap <leader>pf :Files<CR>
 nnoremap <C-p> :GFiles<CR>
+nnoremap <C-k> :cnext<CR>
+nnoremap <C-j> :cprev<CR>
+nnoremap <C-E> :copen<CR>
+vnoremap <leader>p "_dP
+vnoremap <leader>y "+y
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
